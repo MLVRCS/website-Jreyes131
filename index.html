@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+
+<!-- Chang your title here! -->
+<title>YOUR TITLE GOES HERE</title>
+
+<!-- DO NOT CHANGE ANY OF THIS -->
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+<!-- Here is your stylesheet -->
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Style the header */
+header {
+  background-color:  #000000;
+  padding: 30px;
+  text-align: center;
+  font-size: 35px;
+  color: white;
+}
+
+/* Create two columns/boxes that floats next to each other */
+nav {
+  float: left;
+  width: 30%;
+  height: 300px; /* only for demonstration, should be removed */
+  background: #ccc;
+  padding: 20px;
+}
+
+/* Style the list inside the menu */
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+article {
+  float: left;
+  padding: 20px;
+  width: 70%;
+  background-color: #800000;
+  height: 300px; /* only for demonstration, should be removed */
+}
+
+/* Clear floats after the columns */
+section::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Style the footer */
+footer {
+  background-color: #00B2FF;
+  padding: 10px;
+  text-align: center;
+  color: white;
+}
+
+/* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens DO NOT CHANGE THIS! */
+@media (max-width: 600px) {
+  nav, article {
+    width: 100%;
+    height: auto;
+  }
+}
+</style>
+</head>
+
+
+<body>
+
+<header>
+  <h2>all about jose reyes</h2>
+</header>
+
+<section>
+  <nav>
+    <ul>
+      <li><a href="https://www.bmwusa.com/build-your-own.html#/studio/f05yy598/summary">my bmw</a></li>
+      <li><a href="https://www.toyota.com/configurator/build/step/summary/year/2023/series/gr86/model/6252/exteriorcolor/0DAR/interiorcolor/AM20/packages/option1/accessories/AM1012-2T-WL-AM1013-CF-AM1032-D5-7R-3Z-3F/?bap_guid=f9131959-ea39-4a6c-84d2-ab5d38347a81">my gr86</a></li>
+      <li><a href="https://configurator.porsche.com/en-US/model/992810?options=1A.76.I8Z.7UG.QU8.9JA.6F0.VK9.6FG.4UB.1T0.UX6.7TF.9R0.VT5.FT0.QR8.4D0.4QR.E0A.6E1.UD0.6EE.3B6.9B0.4L2.1PJ.6XA.7K3.0N5.KQ3.2D0.UI2.8G0.8PD.1BV.2UA.6NA.1X2.GH3.5KS.3J9.5XX.3S0.8Z8.UP9.H6F.IV2.6A0.6BA.V0A.1XQ.QE0.0UA.1G8.7G9.2TF.QJ6.FZ0.9WT.QH1.1P0.7Y0.7AL.9AD.9VK.0TC.5HA.JQ0.2C5.8IT.0P9.3L0.VL0.4A3.8T1.QQ0.6Q5.K8C.4I8.VC2.6I0.2Y0.3HA.0NB.2W0.VF2.JL1.0I1.8VG.7HL.G1C.7MU.3FA.VW4.AZ0.KA2.04A.6RC.M1P.1NX.1N3.C2Q.J2A.4GP.1LS.8M0.2V1.7X0.8LA.VR0.Z1S&optionAdded=Q4Q&recheck=true">my 911 gt3rs</a></li>
+    </ul>
+  </nav>
+  
+  <article>
+    <h1>all about jose reyes</h1>
+    <p>i was born in dominican republic im 13 years old .</p>
+    <p>i love cars my hobby is to play baseball and play video games..</p>
+  </article>
+</section>
+
+<footer>
+  <p>jose reyes , jreyes@mlvrcs.org!</p>
+</footer>
+
+</body>
+</html>
+
